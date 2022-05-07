@@ -1,3 +1,5 @@
+const dotenv = require('dotenv');
+dotenv.config();
 module.exports = {
-    secret: "jpXSRon3cF58qKW1DL5d"
+    secret: process.env.PORT
 };

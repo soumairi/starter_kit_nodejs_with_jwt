@@ -1,5 +1,6 @@
 const express = require("express");
-
+const dotenv = require('dotenv');
+dotenv.config();
 const cors = require('cors');
 const { json } = require("express/lib/response");
 const app = express();
